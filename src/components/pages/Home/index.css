@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.allPageWidth {
+  width: 120rem;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+
+  padding: 0 12.5rem;
+}
+.allPageWidth .container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.allPageWidth .container section {
+  width: auto;
+  padding-top: 4.87rem;
+  display: flex;
+  gap: 7.5rem;
+}
+.allPageWidth section .texts {
+  width: 40rem;
+  padding-top: 4.88rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.88rem;
+}
+.allPageWidth section .texts h1 .one {
+  color: var(--b-8884-b, #b8884b);
+  font-family: Gilroy;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.6875rem; /* 107.143% */
+}
+.allPageWidth section .texts h1 .two {
+  color: var(--1-c-242-c, #252d35);
+  font-family: Gilroy;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.6875rem;
+}
+.allPageWidth section .texts .title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.62.rem;
+}
+.allPageWidth section .texts .title .a {
+  display: flex;
+  gap: 0.31rem;
+  align-items: center;
+}
+
+.allPageWidth section .texts .title .point {
+  width: 0.1875rem;
+  height: 0.1875rem;
+  flex-shrink: 0;
+}
+
+.allPageWidth section .texts .title p {
+  color: var(--1-c-242-c, #252d35);
+  font-family: Gilroy;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.allPageWidth section .texts button {
+  width: 18rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+  border: 2px solid var(--b-8884-b, #b8884b);
+  background: #fff;
+  color: var(--b-8884-b, #b8884b);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: Gilroy;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.allPageWidth section .pictures {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 2.5rem;
+  width: 47.5rem;
+  height: 43.75rem;
+  flex-shrink: 0;
+}
+.allPageWidth section .pictures .pic-one {
+  grid-column: 1/3;
+  grid-row: 1/5;
+  width: 22.5rem;
+  height: 43.75rem;
+}
+
+.allPageWidth section .pictures .pic-two {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  width: 10rem;
+  height: 20.625rem;
+  flex-shrink: 0;
+}
+
+.allPageWidth section .pictures .pic-three {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  width: 10rem;
+  height: 9.0625rem;
+}
+
+.allPageWidth section .pictures .pic-four {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  width: 10rem;
+  height: 9.0625rem;
+}
+
+.allPageWidth section .pictures .pic-five {
+  grid-column: 3/5;
+  grid-row: 3/5;
+  width: 22.5rem;
+  height: 20.625rem;
+  flex-shrink: 0;
+}
+
+.allPageWidth .page-two {
+  display: flex;
+  padding-top: 16.25rem;
+  gap: 2.5rem;
+  padding-bottom: 5rem;
+}
+.allPageWidth .page-two .bg-img-one {
+  width: 45rem;
+  height: 45rem;
+  background: url(../../../assets/images/image6.png),
+    lightgray 50% / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.allPageWidth .container .page-two .bg-img-one .rooms-page {
+  width: 40.75rem;
+  height: 5.5rem;
+  background: rgba(241, 245, 248, 0.8);
+  backdrop-filter: blur(15px);
+  margin: 1.25rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.63rem;
+  padding-left: 0.94rem;
+}
+
+.allPageWidth .container .page-two .bg-img-one .rooms-page strong {
+  color: var(--1-c-242-c, #252d35);
+  font-family: Gilroy;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.allPageWidth .container .page-two .bg-img-one .rooms-page span {
+  color: var(--1-c-242-c, #252d35);
+  font-family: Gilroy;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
